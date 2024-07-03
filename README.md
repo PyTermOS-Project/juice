@@ -1,4 +1,6 @@
 # wanna drink some juice?
+![sojuicy-Photoroom-transformed](https://github.com/PyTermOS-Project/juice/assets/109904787/f52757da-0894-4a4c-a702-cc202ebfdf06)
+
 JuicePackage or Juice is a package manager creater for minimal applications like PMDMcalc or installing new lightweight apps.
 
 It is built in to PyTermOS, and can be installed to macOS.

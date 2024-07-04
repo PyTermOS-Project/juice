@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
-# directory to the files installed via .pkg
+# juice command startup script via ruby
+
+# directory to the juice command
 directory = "/usr/local/bin/juicerun"
 
-# Open the directory
+# opens the juice command directory
 exec "open #{directory}"

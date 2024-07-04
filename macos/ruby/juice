@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # Specify the directory you want to open
-directory = "/juice.py"
+directory = ""
 
 # Open the directory
 exec "open #{directory}"

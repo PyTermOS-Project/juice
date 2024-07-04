@@ -3,7 +3,7 @@
 
 JuicePackage or Juice is a package manager creater for minimal applications like PMDMcalc or installing new lightweight apps.
 
-It is built in to PyTermOS, and can be installed on macOS.
+It is built in to PyTermOS, and can be installed on macOS/Linux.
 
 Only thing you need is, Python on macOS and the newest version of Juice for PyTermOS.
 
@@ -15,6 +15,15 @@ JuiceUse is a service, pre-installed to JuicePackage, for easier use. Like in ju
 
 ## so much juice
 JuicePackage is built in with many features like JuicyDevelopment or JuiceUse, which makes JuicePackage so juicy.
+
+## requirements for juice
+python3 or newer
+
+bash/zsh/PyTerm
+
+Linux/PyTermOS(PyTerm)/macOS/ (almost multiplatform)
+
+JuicePackage docs (for understanding the commands)
 
 ### sorry
 Juice is still in development, so PyTermOS is. You can contribute, so it will be ready faster.

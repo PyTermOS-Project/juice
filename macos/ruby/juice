@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-# Specify the directory you want to open
-directory = ""
+# directory to the files installed via .pkg
+directory = "/usr/local/bin/juicerun"
 
 # Open the directory
 exec "open #{directory}"

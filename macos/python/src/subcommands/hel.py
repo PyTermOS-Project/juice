@@ -1,4 +1,5 @@
-print("""
+def show_help():
+    print("""
     available commands:
         juice: lists all the commands and calls the subcommands (juice [subcommand] [prefix])
         NO_JUICE_AUTO_UPDATE: will prevent juice from updating automatically
@@ -37,3 +38,4 @@ print("""
             support@pytermos.com - PyTermOS support email
             markpavlenkos@icloud.com - markdev personal email
       """)
+show_help()

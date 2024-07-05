@@ -1,7 +1,4 @@
-#!/usr/bin/env ruby
-
-def show_help
-    puts """
+print("""
     available commands:
         juice: lists all the commands and calls the subcommands (juice [subcommand] [prefix])
         NO_JUICE_AUTO_UPDATE: will prevent juice from updating automatically
@@ -39,36 +36,4 @@ def show_help
             contact@juicepackage.site - contact JuicePackage email
             support@pytermos.com - PyTermOS support email
             markpavlenkos@icloud.com - markdev personal email
-    """
-  end
-  
-  def execute_subcommand(subcommand, *args)
-    python_scripts_directory = "/usr/local/bin/juice"
-  
-    case subcommand
-    when "plus"
-      exec("python3 #{python_scripts_directory}/plus.py #{args.join(' ')}")
-    when "hel"
-        exec("python3 #{python_scripts_directory}/hel.py #{args.join(' ')}")
-    when "ver"
-      exec("python3 #{python_scripts_directory}/ver.py")
-    when "hel"
-      show_help
-    when "idk"
-      exec("python3 #{python_scripts_directory}/idk.py")
-    when "un"
-      exec("python3 #{python_scripts_directory}/un.py #{args.join(' ')}")
-    when "vpack"
-      exec("python3 #{python_scripts_directory}/vpack.py #{args.join(' ')}")
-    else
-      puts "Unknown command: #{subcommand}"
-      show_help
-    end
-  end
-  
-  if ARGV.empty?
-    show_help
-  else
-    command = ARGV.shift
-    execute_subcommand(command, *ARGV)
-  end
+      """)

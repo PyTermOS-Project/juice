@@ -25,5 +25,8 @@ Linux/PyTermOS(PyTerm)/macOS/ (almost multiplatform)
 
 JuicePackage docs (for understanding the commands)
 
+## and
+even though JuicePackage is in development, the SE version is in development too
+read more at the [SE version readme](/SE/whatsSE?.md)
 ### sorry
 Juice is still in development, so PyTermOS is. You can contribute, so it will be ready faster.
